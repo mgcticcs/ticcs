@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<!-- Do not remove or modify this line --><head data-gc-version="1.5.201603082000">
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/davinci.dojo_1_8/WebContent/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gc','location':'../../../../davinci.gc_1_5/WebContent/gc'},{'name':'maqetta','location':'../../../../davinci.gc_1_5/WebContent/maqetta'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates"
+]);
+</script>
+<style>@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/document.css";@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/claro.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body data-maq-flow-layout="true" data-maq-comptype="desktop" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div></div>
+</body>
+</html>
