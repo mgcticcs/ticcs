@@ -1,0 +1,6 @@
+{"widgetBindings": [{
+    "propertyName": "label",
+    "serverBindName": "interruptCount",
+    "widgetId": "widget_18323",
+    "options": {"dataType": "String"}
+}]}

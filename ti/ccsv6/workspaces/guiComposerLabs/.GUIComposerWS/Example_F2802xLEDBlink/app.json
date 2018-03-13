@@ -1,0 +1,32 @@
+{"widgetBindings": [
+    {
+        "propertyName": "label",
+        "serverBindName": "interruptCount",
+        "widgetId": "widget_5749",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "selection",
+        "serverBindName": "leds.bLED0",
+        "widgetId": "widget_22733",
+        "options": {"dataType": "Long"}
+    },
+    {
+        "propertyName": "selection",
+        "serverBindName": "leds.bLED1",
+        "widgetId": "widget_33416",
+        "options": {"dataType": "Long"}
+    },
+    {
+        "propertyName": "selection",
+        "serverBindName": "leds.bLED2",
+        "widgetId": "widget_115",
+        "options": {"dataType": "Long"}
+    },
+    {
+        "propertyName": "selection",
+        "serverBindName": "leds.bLED3",
+        "widgetId": "widget_2326",
+        "options": {"dataType": "Long"}
+    }
+]}
