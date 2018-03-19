@@ -1,0 +1,6 @@
+{"widgetBindings": [{
+    "propertyName": "series0",
+    "serverBindName": "ABC",
+    "widgetId": "widget_graph",
+    "options": {"dataType": "Array"}
+}]}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!-- Do not remove or modify this line --><head data-gc-version="1.5.201403271800">
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/davinci.dojo_1_8/WebContent/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gc','location':'../../../../davinci.gc_1_5/WebContent/gc'},{'name':'maqetta','location':'../../../../davinci.gc_1_5/WebContent/maqetta'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "gc/dijit/LineGraph",
+  "gc/dijit/Button",
+  "gc/dijit/Label",
+  "gc/dijit/CheckBox",
+  "gc/dijit/TextBox"
+]);
+</script>
+<style>@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/document.css";@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/claro.css";@import "lib/davinci.dojo_1_8/WebContent/dojo/dojo/resources/dojo.css";@import "lib/davinci.gc_1_5/WebContent/gc/dijit/libs/jqplot/css/jquery.jqplot.min.css";@import "lib/davinci.gc_1_5/WebContent/gc/dijit/libs/css/widgets.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_5/WebContent/gc/backplane/guiComposer.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_5/WebContent/gc/dijit/libs/jqplot/jqplotGraphFull.min.js"></script>
+</head>
+<body data-maq-flow-layout="false" data-maq-comptype="desktop" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div id="widget_graph" data-dojo-type="gc.dijit.LineGraph" height="250" width="350" resetAxesOption="on" xShowTicks="true" yShowTicks="true" backgroundColor="white" showLegend="false" showGridLines="true" visible="true" style="height: 250px; position: absolute; z-index: 900; left: 28px; top: 11px; width: 306px;"></div>
+ <input id="widget_6" type="button" data-dojo-type="gc.dijit.Button" intermediateChanges="false" label="Log to File..." iconClass="dijitNoIcon" visible="true" style="position: absolute; z-index: 900; left: 33.970274925231934px; top: 276.76714992523193px;" onclick="onBrowse()"></input>
+ <label id="widget_8" data-dojo-type="gc.dijit.Label" label="Logging Enabled" visible="true" style="position: absolute; z-index: 900; left: 142px; top: 284px;"></label>
+ <input id="widget_log_enabled" type="checkbox" data-dojo-type="gc.dijit.CheckBox" intermediateChanges="false" iconClass="dijitNoIcon" visible="true" style="position: absolute; z-index: 900; left: 246px; top: 282.5px;"></input>
+ <input id="widget_11" type="button" data-dojo-type="gc.dijit.Button" intermediateChanges="false" label="Reset" iconClass="dijitNoIcon" visible="true" style="position: absolute; z-index: 900; left: 277.40929985046387px; top: 275.79839992523193px;" onclick="onReset()"></input>
+ <label id="widget_13" data-dojo-type="gc.dijit.Label" label="Path" visible="true" style="position: absolute; z-index: 900; left: 35px; top: 323px;"></label>
+ <input id="widget_path" type="text" data-dojo-type="gc.dijit.TextBox" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" selectOnClick="false" visible="true" style="position: absolute; z-index: 900; width: 253.109375px; left: 73.31097507476807px; top: 319px;"></input>
+</body>
+</html>

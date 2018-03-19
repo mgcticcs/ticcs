@@ -1,0 +1,7 @@
+{"default": {
+    "connection": "Texas Instruments XDS100v2 USB Emulator",
+    "deviceFilter": "",
+    "program": "appProgram.out",
+    "device": "controlSTICK - Piccolo F28069",
+    "connectionFilter": ""
+}}
